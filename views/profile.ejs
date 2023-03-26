@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href=link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital,wght@1,100&family=Sacramento&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Document</title>
+</head>
+<body style="background-color:rgb(191, 242, 248)">
+    <div><h1>welcome</h1><br><br></div>
+    <div style="text-align: center;">
+        <table>
+            <tr>
+              <th>Blog</th>
+            </tr>
+            <% _blogs.map(x=>{%>
+            <tr>
+              <td><%=x.blog%></td>
+            </tr>
+            <%})%>
+          </table>
+    </div><br><br><br>
+    <div ><a href="/logout">Logout</a></div><br><br>
+    <center>
+
+    <div><a href="/blog">
+        <button style="background-color:coral; color: black;">create new blog</button>
+    </a>
+</div>
+</center>
+</body>
+</html>

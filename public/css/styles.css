@@ -1,0 +1,52 @@
+body {
+  background-color: pink;
+}
+
+.container {
+
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* 
+.container {
+  width: 900px;
+  border:3px solid brown
+
+} */
+
+.test1 {
+  padding: 0 0 30px 0;
+}
+
+.test2 {
+  padding: 2px 2px 2px 2px;
+  border-top: 30px;
+  margin-left: 1150px;
+
+
+
+}
+/* 
+.navbar{
+  background-color: indianred;
+  overflow: auto;
+  border-radius: 25px;
+}
+.navbar li{
+  float: right;
+  list-style: none;
+}
+
+.navbar li a{
+  margin: 13px 25px ;
+  
+  
+  text-decoration: none;
+  color: white; */
+/* } */
+
+
